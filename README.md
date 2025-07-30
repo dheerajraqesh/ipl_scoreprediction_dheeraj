@@ -33,12 +33,4 @@ This will start a Flask app served at http://127.0.0.1:5000/.
 
 Data Preprocessing: handles missing values, encodes categorical features, computes rolling stats (e.g. last 5 overs).
 Training & Prediction: loads pre-trained regression model (model.pkl) to predict the score based on user inputs.
-Inference: displays a projected score range (e.g. predicted_score ± 10).
-📁 Structure
-
-ipl_scoreprediction_dheeraj/
-├── app.py                   # Flask web application
-├── model.pkl                # Saved regression model
-├── requirements.txt
-├── README.md
-└── ipl_dataset.csv    
+Inference: displays a projected score range (e.g. predicted_score ± 10). 
